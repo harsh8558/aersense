@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="text-white text-3xl font-light italic">
         Aersense<span className="text-red-600 ">™</span>
       </div>
-      <div className="flex space-x-16">
+      <div className="hidden md:flex flex-1 justify-center space-x-16">
         <a href="#rabbit-r1" className="text-white text-sm">
           rabbit r1
         </a>
@@ -23,7 +23,7 @@ const Navbar = () => {
           support
         </a>
       </div>
-      <button className="text-white">
+      <button className="text-white md:hidden">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-6 w-6"

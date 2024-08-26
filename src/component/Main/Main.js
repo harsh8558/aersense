@@ -8,12 +8,11 @@ const Main = () => {
                 <img
                     src={logo}
                     alt="rabbit r1"
-                    className="mx-auto w-3/4 sm:w-full"
+                    className="mx-auto w- sm:w-full"
                 />
             </div>
 
-            {/* Text Section */}
-            <div className="flex-1 text-center sm:text-right">
+            <div className="flex-1 text-center sm:text-right mt-[-50%] sm:mt-0">
                 <div className="text-container sm:text-justify">
                     <h1 className="text-4xl sm:text-6xl font-light mb-4 font-serif text-white max-w-[80%] sm:max-w-[60%] mx-auto sm:mx-0">
                         MATAER 1
