@@ -93,3 +93,18 @@
   font-family: "Light";
   font-size: 20px;
 }
+
+.caption{
+  font-family: "Light";
+  font-size: 18px;
+}
+
+.title{
+  font-family: "Light";
+  font-size: 25px;
+}
+
+.description{
+  font-family: "Light";
+  font-size: 17px;
+}

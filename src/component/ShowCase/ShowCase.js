@@ -63,9 +63,9 @@ const ShowCase = ({ video, title, description, caption }) => {
                     <img src={video} alt={title} className="w-full h-48 object-cover" />
                 )}
                 <div className="p-4">
-                    <p className="text-sm text-yellow-400 mb-4">{caption}</p>
-                    <h2 className="text-2xl font-bold mb-2">{title}</h2>
-                    <p className="text-gray-300">{description}</p>
+                    <p className="text-sm caption text-yellow-400 mb-4">{caption}</p>
+                    <h2 className="text-2xl title font-bold mb-2">{title}</h2>
+                    <p className="text-gray-300 description">{description}</p>
                     <button className="mt-4 text-orange-500 flex items-center">
                         see how
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="ml-2 w-5 h-5">
