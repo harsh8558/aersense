@@ -18,7 +18,7 @@ const Navbar = () => {
       </div>
       <div className="hidden md:flex flex-1 justify-center space-x-16">
         <a href="" className="text-white text-sm">
-          rabbit r1
+          mataer 1
         </a>
         <a href="" className="text-white text-sm">
           rabbit os
@@ -57,7 +57,7 @@ const Navbar = () => {
           ></div>
           <div className="fixed inset-0 flex flex-col items-center justify-center space-y-8 md:hidden">
             <a href="" className="text-white text-lg" onClick={closeSidebar}>
-              rabbit r1
+              mataer 1
             </a>
             <a href="" className="text-white text-lg" onClick={closeSidebar}>
               rabbit os
