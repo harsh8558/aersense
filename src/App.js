@@ -15,7 +15,7 @@ function App() {
       <ShowCase/>
       <Footer/>
 
-    </div>
+    </div >
   );
 }
 
