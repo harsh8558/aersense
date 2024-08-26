@@ -1,6 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Navbar = () => {
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+  };
+
   return (
     <nav className="bg-black p-4 flex items-center justify-between">
       <div className="text-white text-3xl font-light italic">
@@ -23,7 +29,7 @@ const Navbar = () => {
           support
         </a>
       </div>
-      <button className="text-white md:hidden">
+      <button className="text-white md:hidden" onClick={toggleSidebar}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-6 w-6"
@@ -35,10 +41,29 @@ const Navbar = () => {
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="2"
-            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l1.2 6h7.6l1.2-6M7 13h10m0 0H6"
+            d="M3 3h18M3 12h18M3 21h18"
           />
         </svg>
       </button>
+      {isSidebarOpen && (
+        <div className="fixed inset-0 bg-black bg-opacity-75 flex flex-col items-center justify-center space-y-8 md:hidden">
+          <a href="#rabbit-r1" className="text-white text-lg" onClick={toggleSidebar}>
+            rabbit r1
+          </a>
+          <a href="#rabbit-os" className="text-white text-lg" onClick={toggleSidebar}>
+            rabbit os
+          </a>
+          <a href="#research" className="text-white text-lg" onClick={toggleSidebar}>
+            research
+          </a>
+          <a href="#newsroom" className="text-white text-lg" onClick={toggleSidebar}>
+            newsroom
+          </a>
+          <a href="#support" className="text-white text-lg" onClick={toggleSidebar}>
+            support
+          </a>
+        </div>
+      )}
     </nav>
   );
 };
