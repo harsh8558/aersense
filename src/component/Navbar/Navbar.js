@@ -21,7 +21,7 @@ const Navbar = () => {
           mataer 1
         </a>
         <a href="" className=" navlink text-white text-sm">
-          rabbit os
+        aer os
         </a>
         <a href="#research" className="text-white navlink text-sm">
           research
