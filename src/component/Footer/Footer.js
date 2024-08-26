@@ -3,12 +3,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col items-center p-5 bg-black text-gray-400">
-      {/* <div className="flex space-x-6 mb-4">
-        <FaXTwitter className="text-2xl cursor-pointer hover:text-white" />
-        <FaInstagram className="text-2xl cursor-pointer hover:text-white" />
-        <FaDiscord className="text-2xl cursor-pointer hover:text-white" />
-      </div> */}
+    <footer className="flex flex-col items-center p-5 bg-black text-gray-400 mt-1">
       <div className="flex space-x-6 mb-4">
         <a href="/thole" className="hover:text-white">AERSENSE </a>
         <a href="/my-orders" className="hover:text-white">my orders</a>
