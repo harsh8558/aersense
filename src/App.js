@@ -5,6 +5,7 @@ import Main from './component/Main/Main';
 import ShowCase from './component/ShowCase/ShowCase';
 import "./fonts/BankGothicMdBT.ttf"
 import "./App.css"
+import Footer from './component/Footer/Footer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar/>
       <Main/>
       <ShowCase/>
+      <Footer/>
 
     </div>
   );

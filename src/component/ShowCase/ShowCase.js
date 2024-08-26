@@ -7,21 +7,21 @@ import v3 from "../../component/v3.mp4";
 const features = [
     {
         video: v1,
-        title: "helping hand",
-        description: "a trusty companion to help you every step of the way",
-        caption: "strain the mixture into a glass filled with ice."
+        title: "Breathe freely in every moment, everywhere",
+        description: "Aerpurifier",
+        caption: "Your shield against the invisible threats in the air"
     },
     {
         video: v2,
-        title: "time together",
-        description: "a conversation starter, a translator, a new way to stay in the moment",
-        caption: "y recuerdo que tu favorito es chocolate."
+        title: "Innovating today for a healthier tomorrow.",
+        description: "The Ultimate Wearable",
+        caption: "Technology crafted to protect and empower your life."
     },
     {
         video: v3,
-        title: "time together",
-        description: "a conversation starter, a translator, a new way to stay in the moment",
-        caption: "y recuerdo que tu favorito es chocolate."
+        title: "Connecting the world through innovation.",
+        description: "(Product name in bold, font size 14): Vayu-01",
+        caption: "Universal solutions for a healthier, cleaner future."
     }
 ];
 
@@ -64,8 +64,8 @@ const ShowCase = ({ video, title, description, caption }) => {
                 )}
                 <div className="p-4">
                     <p className="text-sm caption text-yellow-400 mb-4">{caption}</p>
-                    <h2 className="text-2xl title font-bold mb-2">{title}</h2>
                     <p className="text-gray-300 description">{description}</p>
+                    <h2 className="text-2xl title font-bold mb-2">{title}</h2>
                     <button className="mt-4 text-orange-500 flex items-center">
                         see how
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="ml-2 w-5 h-5">
