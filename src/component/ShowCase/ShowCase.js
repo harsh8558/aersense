@@ -14,7 +14,7 @@ const features = [
     {
         video: v2,
         title: "Innovating today for a healthier tomorrow.",
-        description: "The Ultimate Wearable",
+        description: "The Wearable",
         caption: "Technology crafted to protect and empower your life."
     },
     {
@@ -65,7 +65,7 @@ const ShowCase = ({ video, title, description, caption }) => {
                 <div className="p-4">
                     <p className="text-sm caption text-yellow-400 mb-4">{caption}</p>
                     <p className="text-gray-300 description">{description}</p>
-                    <h2 className="text-2xl title font-bold mb-2">{title}</h2>
+                    <h2 className="text-2xl title text-[#9ca3af] mb-2">{title}</h2>
                     <button className="mt-4 text-orange-500 flex items-center">
                         see how
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="ml-2 w-5 h-5">
