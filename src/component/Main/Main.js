@@ -1,13 +1,14 @@
 import React from 'react';
+import logo from "../../image/aersense.gif"
 
 const Main = () => {
     return (
-        <div className="flex justify-between items-center bg-black text-white h-screen p-8">
+        <div className="flex justify-between items-center bg-black text-white h-screen p-4 sm:mt-[-5%]">
             <div className="flex-1">
                 <img
-                    src="https://via.placeholder.com/500x500"
+                    src={logo}
                     alt="rabbit r1"
-                    className="w-3/4 mx-auto"
+                    className=" mx-auto"
                 />
             </div>
 
@@ -23,10 +24,10 @@ const Main = () => {
                         ships in November 2024
                     </p>
                     <p className="text-3xl mb-2 flex justify-start items-center">
-                    <svg className='inline' xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-indian-rupee"><path d="M6 3h12"/><path d="M6 8h12"/><path d="m6 13 8.5 8"/><path d="M6 13h3"/><path d="M9 13c6.667 0 6.667-10 0-10"/></svg>899 <span className="text-sm ml-2">INR</span>
+                        <svg className='inline text-[#ff4d06]' xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-indian-rupee"><path d="M6 3h12" /><path d="M6 8h12" /><path d="m6 13 8.5 8" /><path d="M6 13h3" /><path d="M9 13c6.667 0 6.667-10 0-10" /></svg><p className='text-[#ff4d06]'>899</p> <span className="text-sm ml-2">INR</span>
                     </p>
                     <p className="text-sm text-gray-400 mb-8">
-                        no subscription
+                        No Subscription
                     </p>
                     <button className="bg-orange-500 text-white py-2 px-6 rounded-full flex items-center justify-center">
                         add to bag
