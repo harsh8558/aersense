@@ -13,23 +13,23 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 right-0 bg-black p-4 flex items-center justify-between z-50">
-      <div className="text-white text-3xl font-light italic">
+      <div className="text-white text-3xl font-light italic logo">
         Aersense<span className="text-red-600 ">™</span>
       </div>
       <div className="hidden md:flex flex-1 justify-center space-x-16">
-        <a href="" className="text-white text-sm">
+        <a href="" className="navlink text-white text-sm">
           mataer 1
         </a>
-        <a href="" className="text-white text-sm">
+        <a href="" className=" navlink text-white text-sm">
           rabbit os
         </a>
-        <a href="#research" className="text-white text-sm">
+        <a href="#research" className="text-white navlink text-sm">
           research
         </a>
-        <a href="#newsroom" className="text-white text-sm">
+        <a href="#newsroom" className="text-white navlink text-sm">
           newsroom
         </a>
-        <a href="#support" className="text-white text-sm">
+        <a href="#support" className="text-white navlink text-sm">
           support
         </a>
       </div>
@@ -56,19 +56,19 @@ const Navbar = () => {
             onClick={closeSidebar}
           ></div>
           <div className="fixed inset-0 flex flex-col items-center justify-center space-y-8 md:hidden">
-            <a href="" className="text-white text-lg" onClick={closeSidebar}>
+            <a href="" className="text-white navlink text-lg" onClick={closeSidebar}>
               mataer 1
             </a>
-            <a href="" className="text-white text-lg" onClick={closeSidebar}>
+            <a href="" className="text-white navlink text-lg" onClick={closeSidebar}>
               rabbit os
             </a>
-            <a href="#research" className="text-white text-lg" onClick={closeSidebar}>
+            <a href="#research" className="text-white navlink text-lg" onClick={closeSidebar}>
               research
             </a>
-            <a href="#newsroom" className="text-white text-lg" onClick={closeSidebar}>
+            <a href="#newsroom" className="text-white navlink text-lg" onClick={closeSidebar}>
               newsroom
             </a>
-            <a href="#support" className="text-white text-lg" onClick={closeSidebar}>
+            <a href="#support" className="text-white navlink text-lg" onClick={closeSidebar}>
               support
             </a>
           </div>

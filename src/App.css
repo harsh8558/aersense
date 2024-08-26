@@ -36,3 +36,60 @@
     transform: rotate(360deg);
   }
 }
+
+
+@font-face {
+  font-family: "Light";   /*Can be any text*/
+  src: local("BankGothicMdBT"),
+    url("./fonts/BankGothicMdBT.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Medium";   /*Can be any text*/
+  src: local("BankGothicMdBT"),
+    url("./fonts/BankGothicMdBT.ttf") format("woff");
+}
+
+.head{
+  font-family: "Light";
+  font-size: 45px;
+}
+
+.logo{
+  font-family: "Light";
+  font-size: 33px;
+}
+
+.head1{
+  font-family: "Light";
+  font-size: 21px;
+}
+
+.head2{
+  font-family: "Light";
+  font-size: 15px;
+}
+
+.head3{
+  font-family: "Light";
+  font-size: 25px;
+}
+
+.head4{
+  font-family: "Light";
+  font-size: 15px;
+}
+.button1{
+  font-family: "Light";
+  font-size: 18px;
+}
+
+.head5{
+  font-family: "Medium";
+  font-size: 40px;
+}
+
+.navlink{
+  font-family: "Light";
+  font-size: 20px;
+}

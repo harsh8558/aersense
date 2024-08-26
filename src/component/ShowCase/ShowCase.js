@@ -84,7 +84,7 @@ const Main = () => {
         <>
             <div className="bg-black text-white py-10 mt-[-5%]">
             <hr className="w-full border-t border-gray-500" />
-                <h1 className="text-5xl mt-10 font-semibold font-sans text-center mb-12">designed for life</h1>
+                <h1 className="head5 text-5xl mt-10 font-semibold font-sans text-center mb-12">designed for life</h1>
 
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
