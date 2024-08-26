@@ -3,7 +3,7 @@ import logo from "../../image/aersense.gif"
 
 const Main = () => {
     return (
-        <div className="flex flex-col sm:flex-row justify-between sm:mt-[-5%] items-center bg-black text-white h-screen p-4">
+        <div className="flex flex-col sm:flex-row justify-between mt-10 sm:mt-[-2%] items-center bg-black text-white h-screen p-4">
             <div className="flex-1 mb-8 sm:mb-0">
                 <img
                     src={logo}

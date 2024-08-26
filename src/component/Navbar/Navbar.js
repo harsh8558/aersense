@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-black p-4 flex items-center justify-between">
+    <nav className="fixed top-0 left-0 right-0 bg-black p-4 flex items-center justify-between z-50">
       <div className="text-white text-3xl font-light italic">
         Aersense<span className="text-red-600 ">™</span>
       </div>
