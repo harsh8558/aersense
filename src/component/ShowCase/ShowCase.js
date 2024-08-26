@@ -20,7 +20,7 @@ const features = [
     {
         video: v3,
         title: "Connecting the world through innovation.",
-        description: "(Product name in bold, font size 14): Vayu-01",
+        description: "Vayu-01",
         caption: "Universal solutions for a healthier, cleaner future."
     }
 ];
