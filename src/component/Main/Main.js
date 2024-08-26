@@ -26,8 +26,8 @@ const Main = () => {
                     </p>
                     <p className="text-2xl sm:text-3xl mb-2 flex justify-center sm:justify-start items-center">
                         <svg className='inline text-[#ff4d06]' xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M6 3h12" /><path d="M6 8h12" /><path d="m6 13 8.5 8" /><path d="M6 13h3" /><path d="M9 13c6.667 0 6.667-10 0-10" /></svg>
-                        <p className='text-[#ff4d06] head3'>8999</p> 
-                        <span className="text-sm ml-2">INR</span>
+                        <p className='text-[#ff4d06] head3'>8999</p>
+                        <span className="text-sm ml-2 INR">INR</span>
                     </p>
                     <p className="head4 text-sm text-gray-400 mb-8">
                         No Subscription
