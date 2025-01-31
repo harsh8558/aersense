@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.030a5ac7.css",
+    "main.js": "/static/js/main.95db93ae.js",
+    "static/js/453.9a9fad57.chunk.js": "/static/js/453.9a9fad57.chunk.js",
+    "static/media/aersense.gif": "/static/media/aersense.96d097db436f8933b371.gif",
+    "static/media/v1.mp4": "/static/media/v1.06cdafab84f2ff138e8b.mp4",
+    "static/media/v2.mp4": "/static/media/v2.aa51bbbb780398e107ee.mp4",
+    "static/media/v3.mp4": "/static/media/v3.c7c64f44de875d29e06b.mp4",
+    "static/media/BankGothicMdBT.ttf": "/static/media/BankGothicMdBT.d58eea63a0f1090f3671.ttf",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.030a5ac7.css.map": "/static/css/main.030a5ac7.css.map",
+    "main.95db93ae.js.map": "/static/js/main.95db93ae.js.map",
+    "453.9a9fad57.chunk.js.map": "/static/js/453.9a9fad57.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.030a5ac7.css",
+    "static/js/main.95db93ae.js"
+  ]
+}
